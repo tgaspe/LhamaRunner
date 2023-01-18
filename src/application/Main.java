@@ -143,8 +143,7 @@ public class Main extends Application implements EventHandler<KeyEvent> {
 			
 			
 			//Collision with obstacle
-			if (obstacle_posX <= player_posX + PLAYER_WIDTH && obstacle_posX >= player_posX && obstacle_posY <= player_posY + PLAYER_HEIGHT) {
-			
+			if (obstacle_posX <= player_posX + PLAYER_WIDTH && obstacle_posX >= player_posX && obstacle_posY <= player_posY + PLAYER_HEIGHT) {			
 				gameStarted = false;
 				gameOver = true;
 					
@@ -154,10 +153,7 @@ public class Main extends Application implements EventHandler<KeyEvent> {
 			}
 			
 			if (obstacle_posX < 0 ) {
-				
 				obstacle_posX = 1200;
-				
-				
 			}
 			
 			if (obstacle_posX1 < 0) {
