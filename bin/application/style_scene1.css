@@ -1,0 +1,12 @@
+.root {
+	-fx-background-color: #86C1B9;
+	-fx-font-size: 20pt;
+}
+
+.label {
+	/* -fx-padding: 80pt; */
+}
+
+.text {
+	-fx-text-alignment: center;
+}
